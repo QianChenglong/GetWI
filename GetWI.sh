@@ -9,5 +9,6 @@
 #   LastChange: 2013-11-25 18:23:16
 #      History:
 #=============================================================================
-class_name=`xprop | grep WM_CLASS`
-zenity --info --text "$class_name"
+
+info=`xprop | grep -E "WM_CLASS|WM_NAME"`
+zenity --info --text "$info"

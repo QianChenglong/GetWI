@@ -1,0 +1,1 @@
+# GetWI(Get Window Information)
